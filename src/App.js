@@ -1,7 +1,13 @@
 import React from 'react'
 
+import TechList from './components/TechList'
+
+import './App.css'
+
 function App() {
-  return <h1>Hello Darkness</h1>
+  return (
+    <TechList />
+  )
 }
 
 export default App
